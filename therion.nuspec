@@ -3,7 +3,7 @@
   <metadata>
     <id>therion</id>
     <version>6.3.1</version>
-    <packageSourceUrl>https://github.com/therion/therion/archive/refs/tags/v6.3.1.zip</packageSourceUrl>
+    <packageSourceUrl>https://github.com/therion-fr/therion-chocolatey</packageSourceUrl>
     <owners>Tristan CAREL</owners>
     <title>therion digital cave maps</title>
     <authors>Stacho Mudrak, Martin Budaj</authors>
