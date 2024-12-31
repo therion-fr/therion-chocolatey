@@ -1,0 +1,13 @@
+name: build and check the Chocolatey package
+on:
+  pull_request:
+    branches:
+    - main
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - run: choco feature enable -n allowGlobalConfirmation
+    - run: choco pack
+    - run: choco install therion --debug --verbose --source .
+    - run: choco uninstall therion

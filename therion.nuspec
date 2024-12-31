@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>therion</id>
+    <version>6.3.1</version>
+    <packageSourceUrl>https://github.com/therion/therion/archive/refs/tags/v6.3.1.zip</packageSourceUrl>
+    <owners>Tristan CAREL</owners>
+    <title>therion digital cave maps</title>
+    <authors>Stacho Mudrak, Martin Budaj</authors>
+    <projectUrl>https://therion.speleo.sk</projectUrl>
+    <iconUrl>https://therion.speleo.sk/wiki/_media/wiki:logo.png</iconUrl>
+    <copyright>1999-2024</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html#SEC1</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/therion/therion</projectSourceUrl>
+    <docsUrl>https://therion.speleo.sk/wiki/doku.php</docsUrl>
+    <mailingListUrl>https://mailman.speleo.sk/listinfo/therion</mailingListUrl>
+    <bugTrackerUrl>https://github.com/therion/therion/issues</bugTrackerUrl>
+    <tags>therion cave surveying topography cartography</tags>
+    <summary>Therion is a complete package which processes survey data and generates maps or 3D models of caves.</summary>
+    <description> Therion is a complete package which processes survey data and generates maps or 3D models of caves. It runs on wide variety of platforms: Linux, Windows, Mac OS X. It is completely free, released under the terms of GNU GPL, with source code available. It doesn't require any other commercial software to run.
+    Therion solves the most annoying problem of cave cartography – how to keep a map of large and complicated cave system always up-to-date. Main features include:
+    - Complete maps with all the detail. No additional ink stroke is needed.
+    - Maps are dynamic, always up-to-date – i.e. they are automatically re-drawn after loop closure, blunder fix, scale or symbol set change.
+    - 3D models are created using 2D maps.
+    </description>
+    <releaseNotes>[list of changes](https://github.com/therion/therion/blob/master/CHANGES)</releaseNotes>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
