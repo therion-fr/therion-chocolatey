@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/therion/therion/releases/download/v6.3.1/therion-setup-v6.3.1.exe'
+$url        = 'https://github.com/therion/therion/releases/download/v6.3.3/therion-setup-v6.3.3.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'therion*'
 
-  checksum      = 'DEBF19F9733DB4B441E3FDF63EA0CE3E64D26E8BF4A36E3D74249D0BCD5B6C5E'
+  checksum      = 'C39B371976945EBFAB57E83EDA93DC710CB3FD3C5F24C16EDCCE902C1F9B2C69'
   checksumType  = 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
