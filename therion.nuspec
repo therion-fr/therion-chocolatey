@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>therion</id>
-    <version>6.3.1</version>
+    <version>6.3.3</version>
     <packageSourceUrl>https://github.com/therion-fr/therion-chocolatey</packageSourceUrl>
     <owners>Tristan CAREL</owners>
     <title>therion digital cave maps</title>
     <authors>Stacho Mudrak, Martin Budaj</authors>
     <projectUrl>https://therion.speleo.sk</projectUrl>
     <iconUrl>https://therion.speleo.sk/wiki/_media/wiki:logo.png</iconUrl>
-    <copyright>1999-2024</copyright>
+    <copyright>1999-2025</copyright>
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html#SEC1</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/therion/therion</projectSourceUrl>
